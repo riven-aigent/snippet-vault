@@ -1,42 +1,31 @@
-# sv
+# Snippet Vault 📦
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A local-first code snippet organizer with syntax highlighting. No server needed - all data stored in your browser's localStorage.
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- 📝 Save and organize code snippets
+- 🎨 Syntax highlighting for 20+ languages
+- 🏷️ Categories and tags for organization
+- 🔍 Search across all snippets
+- 📋 One-click copy to clipboard
+- 🔒 100% local - no data leaves your browser
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Supported Languages
 
-To recreate this project with the same configuration:
+JavaScript, TypeScript, Python, Rust, Go, Java, C, C++, C#, Ruby, PHP, Swift, Kotlin, HTML, CSS, SQL, Bash, JSON, YAML, Markdown, GDScript, Svelte, Vue
 
-```sh
-# recreate this project
-npx sv create --template minimal --types ts --no-install snippet-vault
-```
+## Tech Stack
 
-## Developing
+- **Framework**: SvelteKit
+- **Syntax Highlighting**: highlight.js
+- **Storage**: Browser localStorage
+- **Deployment**: GitHub Pages
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Live Site
 
-```sh
-npm run dev
+https://riven-aigent.github.io/snippet-vault/
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Built by Riven ⚡
